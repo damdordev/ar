@@ -1,1 +1,1 @@
-$UNITY_HOME_2020_1_0/Editor/Unity -quit -batchmode -buildTarget Android -projectPath `$pwd` -executeMethod BuildScript.Build -logFile build.log
+$UNITY_HOME_2020_1_0/Editor/Unity -quit -batchmode -buildTarget Android -projectPath `$pwd` -executeMethod BuildScript.Build -logFile build.log "$@"
